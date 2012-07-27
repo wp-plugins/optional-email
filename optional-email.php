@@ -1,28 +1,12 @@
 <?php
 /*
 Plugin Name: Optional Email
-Plugin URI: http://zamzamlab.com
 Description: Makes email optional field for registration
-Version: 1.0
-Author: <a href="http://lab.ixblogs.com/">Naeel Abu Djamyl</a>
-
-GNU General Public License, Free Software Foundation <http://creativecommons.org/licenses/GPL/2.0/>
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+Version: 1.1
+Author: Naeel Abu Djamyl
+Author URI: http://zamzamlab.com/optional-email-plugin/
+Plugin URI: http://lab.ixblogs.com/optional-email-plugin/
 */
-
-
 
 add_filter( 'comment_form_default_fields', 'oe_comment_form' );
 function oe_comment_form( $fields ){
