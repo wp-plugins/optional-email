@@ -7,16 +7,17 @@ Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Makes email field optional (not mandatory) on the registration page, profile page, add a new user page.
+Makes the email field optional (not mandatory) on the registration page, profile page, add a new user page.
 
 == Description ==
 
-Makes email field optional (not mandatory) on the registration page, profile page.
+Makes the email field optional (not mandatory) on the registration page, profile page, add a new user page.
 
 Also will add a password field on the registration page.
 
 Plugin support (English) [ZamZamLab - Optional Email Plugin](http://zamzamlab.com/optional-email-plugin/ "ZamZamLab - Optional Email Plugin")
 And in Russian [Необязательный емайл](http://lab.ixblogs.com/optional-email-plugin/ "Optional Email Plugin").
+On GitHub [WP Optional Email](https://github.com/djanym/wp-optional-email "Optional Email Plugin").
 
 == Installation ==
 
