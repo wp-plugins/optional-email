@@ -2,7 +2,7 @@
 /*
 Plugin Name: Optional Email
 Description: Makes email optional field for registration
-Version: 1.1
+Version: 1.2
 Author: Naeel Abu Djamyl
 Author URI: http://zamzamlab.com/optional-email-plugin/
 Plugin URI: http://lab.ixblogs.com/optional-email-plugin/
@@ -50,6 +50,7 @@ function oe_admin_footer(){
 	?>
 	<script type="text/javascript">
 		jQuery('label[for="email"] > span.description').hide();
+		jQuery('#createuser input[name=email]').closest('tr').removeClass('form-required');
 	</script>
 	<?php
 }

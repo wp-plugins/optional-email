@@ -2,12 +2,12 @@
 Contributors: djanym
 Tags: email field, registration email, profile email, password registration
 Requires at least: 3.0.0
-Tested up to: 3.4.1
-Stable tag: 1.1
+Tested up to: 4.9
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Makes email field optional (not mandatory) on the registration page, profile page.
+Makes email field optional (not mandatory) on the registration page, profile page, add a new user page.
 
 == Description ==
 
